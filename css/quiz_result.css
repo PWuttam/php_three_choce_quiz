@@ -1,0 +1,141 @@
+body {
+  font-family: "Montserrat", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  background-color: #FFFFFF;
+  width: 80%;
+  margin-left: 10%;
+}
+.true {
+  position: absolute;
+  margin: 20px 0 0 550px;
+  font-size: 200%;
+  color: red;
+  font-weight: bold;
+}
+.false {
+  position: absolute;
+  margin: 20px 0 0 550px;
+  font-size: 200%;
+  color: blue;
+  font-weight: bold;
+}
+.main {
+  width: 608px;
+  height: 368px;
+  margin: 100px 0 0 10%;
+  background-color: #FFFFFF;
+  border: groove #CCCCCC;
+}
+.site-logo img {
+  height: 100px;
+}
+.question-title {
+  position: absolute;
+  margin: -80px 0 0 280px;
+  font-size: 200%;
+  font-weight: bold;
+}
+.border-hedder {
+  width: 100%;
+  height: 3px;
+  background-color: #F0A20F;
+}
+.question-instruction {
+  margin-top: 30px;
+  margin-left: 130px;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.q-logo img {
+  position: absolute;
+    width: 44px;
+    margin: -40px 0 0 70px;
+}
+
+/* 選択肢の三つ */
+
+.question-box {
+  margin: 10px 10px 0 7%;
+}
+.question-text {
+  position: absolute;
+  font-size: 65%;
+  margin: -29px 0 0 35px;
+}
+.question-image {
+  max-width: 150px;
+  max-height: 120px;
+  overflow: hidden;
+}
+.question-image img{
+  width: 150px;
+  height: 120px;
+  overflow: hidden;
+}
+.c-mark svg {
+  position: absolute;
+  margin: -20px 0 0 -20px;
+}
+.question-box-left {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px 0 10px;
+  background-color: #e0ffff;
+}
+.question-box-left-white {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px 0 10px;
+  background-color: #e0ffff;
+  opacity: 0.3;
+}
+.question-number1 {
+  font-size: 150%;
+  color: #00008b;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.question-box-center {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px 0 10px;
+  background-color: #fffacd;
+}
+.question-box-center-white {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px 0 10px;
+  background-color: #fffacd;
+  opacity: 0.3;
+}
+.question-number2 {
+  color: #d2691e;
+  font-size: 150%;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.question-box-right {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px 0 10px;
+  background-color: #ffc0cb;
+}
+.question-box-right-white {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px 0 10px;
+  background-color: #ffc0cb;
+  opacity: 0.3;
+}
+.question-number3 {
+  color: #800000;
+  font-size: 150%;
+  font-weight: bold;
+  margin-left: 5px;
+}
